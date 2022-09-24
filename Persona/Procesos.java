@@ -36,7 +36,7 @@ public class Procesos {
         yo man = new yo();
         man.setDatos(nombre, apellido, direccion, genero, telefono);
         man.setLenguaje(lenguaje);
-        man.comer("Arros con pollo");// POLIMORFISMO
+        man.comer("Arros con pollito");// POLIMORFISMO
         man.comer("Pollo dorado con pastel de papa");// POLIMORFISMO, mismo metod con resultados diferentes
         man.dormir();
         man.Programar();
@@ -49,7 +49,7 @@ public class Procesos {
         // datos predefinidos, aplicando el polimorfismo
         tu person = new tu();
         person.setDatos("Edgar", "Valdivia", "Arequipa", "Masculino", 987456321);
-        person.setLenguaje("go");
+        person.setLenguaje("git");
         person.comer("pollito");// POLIMORFISMO
         person.Programar();
         person.VerDatos();
