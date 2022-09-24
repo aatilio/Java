@@ -36,7 +36,7 @@ public class Procesos {
         yo man = new yo();
         man.setDatos(nombre, apellido, direccion, genero, telefono);
         man.setLenguaje(lenguaje);
-        man.comer("chaufita");// POLIMORFISMO
+        man.comer("Arros con pollo");// POLIMORFISMO
         man.comer("Pollo dorado con pastel de papa");// POLIMORFISMO, mismo metod con resultados diferentes
         man.dormir();
         man.Programar();
