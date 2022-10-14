@@ -16,14 +16,12 @@ public class procesos {
     
             System.out.println();
             nuevoSubcriptor peruano = new nuevoSubcriptor();
-            peruano.setNombre(nombre);
-            peruano.setApellido(apellido);
+            peruano.setDatos(nombre, apellido);
             peruano.imprimirNombre();
 
             System.out.println();
             nuevoSubcriptor chileno = new nuevoSubcriptor();
-            chileno.setNombre("Maveric");
-            chileno.setApellido("Bret Melver");
+            chileno.setDatos("Maveric", "Bret Melver" );
             chileno.imprimirNombre();
         }
 
@@ -98,15 +96,13 @@ public class procesos {
         }
 
         //CUADRADO Y CUBO DE UN NUMERO
-        static double cuadrado(int n1) {
-            double cuadrado = 0;
-            cuadrado = n1 * n1;
-            return cuadrado;
+        static double cuadrado(int n) {
+            double num = Math.pow(n, 2);
+            return num;
         }
-        static double cubo(int n1) {
-            double cubo = 0;
-            cubo = n1 *  n1 * n1;
-            return cubo;
+        static double cubo(int n) {
+            double num = Math.pow(n, 3);
+            return num;
         }
         public void cuadradoCuboNumero() {
             int n1, n2;
