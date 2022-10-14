@@ -1,0 +1,14 @@
+Funciones:
+
+No necesitamos una clase para definir una función.
+Las funciones no están asociadas a ningún objeto. Las funciones operan sobre los datos que les pasa como argumentos.
+Podemos invocar una función solo por su nombre.
+Las funciones no requieren ningún argumento «self». Pueden tener cero o más argumentos.
+
+
+Métodos:
+
+Las definiciones de métodos siempre están presentes dentro de una clase y dependen de la clase a la que pertenecen.
+Los métodos están asociados con los objetos de la clase a la que pertenecen y operan sobre los datos del objeto al que se asocian. Ojo, cada objeto tiene sus propios métodos.
+Un método se llama sobre un objeto: object.method(). No podemos invocarlo sólo por su nombre.
+Un método requiere tener «self» como primer argumento.
