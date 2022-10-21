@@ -119,7 +119,7 @@ public class Cajero {
     }
 
     // Metodo para cambiar clave
-    public void cambiarClave() {
+    public void cambiarPin() {
         String pinAntiguo;
         String pinNuevo;
 

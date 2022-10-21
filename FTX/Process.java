@@ -30,7 +30,7 @@ public class Process {
                         pro.retirar();
                         break;
                     case 4:
-                        pro.cambiarClave();
+                        pro.cambiarPin();
                         break;
                     case 5:
                         JOptionPane.showMessageDialog(null, "Gracias por usar FTX");
