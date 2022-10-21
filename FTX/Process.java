@@ -8,10 +8,14 @@ public class Process {
     Targeta targeta = new Targeta();
 
     public void ingresarTargeta() {
-        String numTargetaFisica;
+        String numTargetaFisica, date;
+        
         numTargetaFisica = JOptionPane.showInputDialog(null, "INGRESE SU TARGETA : ");
-        if (targeta.esValidoLaTargeta(numTargetaFisica)) {
+        date = JOptionPane.showInputDialog(null, "INGRESE LA FECHA DE VENCIMIENTO : ");
+        if (targeta.esValidoLaTargeta(numTargetaFisica, date)) {
             mostrarMenu();
+        } else {
+            JOptionPane.showMessageDialog(null, "Targeta no valida o vencida");
         }
     }
 

@@ -2,7 +2,7 @@ package FTX;
 
 public class Targeta {
     private String numTargeta = "1111222233334444";
-    private int cvv = 587;
+    private int cvv = 456;
     private String vencimiento = "02/27";
 
     public String getNumTargeta() {
@@ -29,8 +29,8 @@ public class Targeta {
         this.vencimiento = vencimiento;
     }
 
-    public boolean esValidoLaTargeta(String num) {
-        if (num.equals(numTargeta)) {
+    public boolean esValidoLaTargeta(String num, String data) {
+        if (num.equals(numTargeta) && data.equals(vencimiento)) {
             return true;
         } else {
             return false;
