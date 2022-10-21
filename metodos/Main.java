@@ -6,14 +6,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int año;
-        System.out.print("Introduce año: ");
-        año = sc.nextInt();
-        if (esBisiesto(año)) { // llamada al método
-            System.out.println("Bisiesto");
-        } else {
-            System.out.println("No es bisiesto");
+        try (Scanner sc = new Scanner(System.in)) {
+            int año;
+            System.out.print("Introduce año: ");
+            año = sc.nextInt();
+            if (esBisiesto(año)) { // llamada al método
+                System.out.println("Bisiesto");
+            } else {
+                System.out.println("No es bisiesto");
+            }
         }
     }
 

@@ -1,4 +1,4 @@
-package Persona;
+package biblioteca;
 
 /**
  * CLASE MAIN

@@ -1,4 +1,4 @@
-package Persona;
+package biblioteca;
 
 /* Esta el la clase padre */
 public class Persona {
