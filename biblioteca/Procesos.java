@@ -1,4 +1,4 @@
-package Persona;
+package biblioteca;
 
 import java.util.Scanner;
 
@@ -31,6 +31,7 @@ public class Procesos {
             telefono = reader.nextInt();
         }
 
+        /* 
         System.out.println();
 
         yo man = new yo();
@@ -52,6 +53,6 @@ public class Procesos {
         person.setLenguaje("git");
         person.comer("pollito");// POLIMORFISMO
         person.Programar();
-        person.VerDatos();
+        person.VerDatos();*/
     }
 }
