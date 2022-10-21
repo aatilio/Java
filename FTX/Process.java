@@ -5,6 +5,15 @@ import javax.swing.JOptionPane;
 public class Process {
 
     Cajero pro = new Cajero();
+    Targeta targeta = new Targeta();
+
+    public void ingresarTargeta() {
+        String numTargetaFisica;
+        numTargetaFisica = JOptionPane.showInputDialog(null, "INGRESE SU TARGETA : ");
+        if (targeta.esValidoLaTargeta(numTargetaFisica)) {
+            mostrarMenu();
+        }
+    }
 
     public void mostrarMenu() {
         int opcion = 0;

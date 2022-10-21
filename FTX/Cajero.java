@@ -59,7 +59,7 @@ public class Cajero {
                             + "b    >    100\n"
                             + "c    >    200\n"
                             + "d    >    500\n"
-                            + "e    >    1000\n\n"
+                            + "e    >    1000\n"
                             + "f    >    Monto espesifico");
 
                     if (cadena != null) {
