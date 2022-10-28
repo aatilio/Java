@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Metodos1 {
 
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
 
         try (Scanner sc = new Scanner(System.in)) {

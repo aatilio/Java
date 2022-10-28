@@ -1,3 +1,5 @@
+
+package practice;
 //Clase Empleado. Clase Base de la jerarquía
 public class Empleado {
     private String nombre;
