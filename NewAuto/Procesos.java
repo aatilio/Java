@@ -1,24 +1,25 @@
 package NewAuto;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 public class Procesos {
 
     VentaVehiculo auto = new VentaVehiculo();
+    Scanner teclado = new Scanner(System.in);
     
     public void mostrarMenu() {
         int opcion = 0;
         do {
-            String cade = JOptionPane.showInputDialog(null, ""
-                    + "                 New Auto\n\n"
-                    + "1    >    Registrar Vehiculo\n"
-                    + "2    >    Mostrar Vehiculo\n"
-                    + "3    >    Buscar Vehiculo\n"
-                    + "4    >    Eliminar Vehiculo\n"
-                    + "5    >    Salir del sistema");
+            System.out.print("        MENU ");
+            System.out.print("\nRegistrar Vehiculo                 >   1 ");
+            System.out.print("\nMostrar Vehiculo                   >   2 ");
+            System.out.print("\nBuscar Vehiculo                    >   3 ");
+            System.out.print("\nEliminar Vehiculo                  >   4 ");
+            System.out.print("\nSalir del sistema                  >   5 ");
+            opcion = teclado.nextInt();
 
-            if (cade != null && validarOpcion.esNumero(cade)) {
-                opcion = Integer.parseInt(cade);
                 switch (opcion) {
                     case 1:
                         auto.registrar();
@@ -40,7 +41,7 @@ public class Procesos {
                         JOptionPane.showMessageDialog(null, "Opcion no disponible,\n vuelva a digitar");
                         break;
                 }
-            }
+            
         } while (opcion != 5);
     }
 }

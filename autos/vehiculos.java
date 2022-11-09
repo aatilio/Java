@@ -1,10 +1,9 @@
-package NewAuto;
+package autos;
 
-import java.util.ArrayList;
 
-public class Vehiculo {
+public class vehiculos {
+    private String placa, marca, modelo, color, fabricacion;
     
-    public String placa, marca, modelo, color, fabricacion;
 
     public void setVehiculo(String placa, String marca, String modelo, String color, String fabricacion) {
         this.placa = placa;
@@ -34,18 +33,9 @@ public class Vehiculo {
         return fabricacion;
     }
 
-    //METODOS
-
-    public void arrancar(){
-
+    @Override
+    public String toString() {
+        return "Instrumento{" + "Placa = " + placa + ", Marca = " + marca + ", Modelo = " + modelo + ", Color = " + color + ", Fabricaion = " + fabricacion + '}';
     }
 
-    public void acelerar(){
-        
-    }
-    public void frenar(){
-        
-    }
-    
-    
 }

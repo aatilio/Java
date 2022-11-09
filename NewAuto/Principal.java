@@ -1,10 +1,7 @@
 package NewAuto;
-
-public class sell {
+public class Principal {
     public static void main(String[] args) {
-
         Procesos car = new Procesos();
-        car.mostrarMenu();
-
+        car.mostrarMenu();   
     }
 }

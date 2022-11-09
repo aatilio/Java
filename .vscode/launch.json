@@ -1,0 +1,307 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "NewAuto.Principal",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "empre.Principal",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch principal",
+            "request": "launch",
+            "mainClass": "interfas.principal",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch sell",
+            "request": "launch",
+            "mainClass": "NewAuto.sell",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch atm",
+            "request": "launch",
+            "mainClass": "FTX.atm",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch CajeroAutomatico",
+            "request": "launch",
+            "mainClass": "araho.CajeroAutomatico",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch CajeroAutomatico",
+            "request": "launch",
+            "mainClass": "CajeroAutomatico",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch CajeroAutomatico",
+            "request": "launch",
+            "mainClass": "FTX.CajeroAutomatico",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch CajeroAutomatico",
+            "request": "launch",
+            "mainClass": "ATM.CajeroAutomatico",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch CajeroAutomatico",
+            "request": "launch",
+            "mainClass": "cajero.CajeroAutomatico"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Persona.Principal",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch corredorApto",
+            "request": "launch",
+            "mainClass": "Examen.corredorApto",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch techoPropio",
+            "request": "launch",
+            "mainClass": "Examen.techoPropio",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch promedio",
+            "request": "launch",
+            "mainClass": "Examen.promedio",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial_Iterativo",
+            "request": "launch",
+            "mainClass": "Examen.Factorial_Iterativo",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch temperaturas",
+            "request": "launch",
+            "mainClass": "Examen.temperaturas",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciRecursivo",
+            "request": "launch",
+            "mainClass": "Examen.FibonacciRecursivo",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursiveFibonacci",
+            "request": "launch",
+            "mainClass": "Examen.RecursiveFibonacci",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch muestreo",
+            "request": "launch",
+            "mainClass": "Examen.muestreo",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch MuestraNumerosApp",
+            "request": "launch",
+            "mainClass": "Ejercicios.MuestraNumerosApp",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multipicado",
+            "request": "launch",
+            "mainClass": "Examen.Multipicado",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multipicado",
+            "request": "launch",
+            "mainClass": "Examen.Multiplicar.Multipicado",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaApp",
+            "request": "launch",
+            "mainClass": "Ejercicios.AreaApp",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "PalabraReser.main",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "practice.Ejercicio1",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "POO.Principal",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch hellowork",
+            "request": "launch",
+            "mainClass": "hola.hellowork",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "HerenciaPersona.Principal",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alumno",
+            "request": "launch",
+            "mainClass": "herencia.Alumno",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraynum",
+            "request": "launch",
+            "mainClass": "Practica.arraynum",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch PON",
+            "request": "launch",
+            "mainClass": "Practica.PON",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pedido",
+            "request": "launch",
+            "mainClass": "Practica.Pedido",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicios",
+            "request": "launch",
+            "mainClass": "metodos.Ejercicios",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Metodos1",
+            "request": "launch",
+            "mainClass": "metodos.Metodos1",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "metodos.Main",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch MetodoVoid",
+            "request": "launch",
+            "mainClass": "MetodoVoid",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch MetodoVoid",
+            "request": "launch",
+            "mainClass": "metodos.MetodoVoid",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "herencia.Main",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch FuncionesHerencia",
+            "request": "launch",
+            "mainClass": "FuncionesHerencia",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialNumero",
+            "request": "launch",
+            "mainClass": "FactorialNumero",
+            "projectName": "Java_622dbb20"
+        },
+        {
+            "type": "java",
+            "name": "Launch metodos",
+            "request": "launch",
+            "mainClass": "metodos",
+            "projectName": "Java_622dbb20"
+        }
+    ]
+}
