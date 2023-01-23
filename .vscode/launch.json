@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tabla",
+            "request": "launch",
+            "mainClass": "Examen.tabla",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch prome",
+            "request": "launch",
+            "mainClass": "Examen.prome",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "POO.Principal",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
             "name": "Launch Principal",
             "request": "launch",
             "mainClass": "NewAuto.Principal",
