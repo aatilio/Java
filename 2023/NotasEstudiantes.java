@@ -1,3 +1,4 @@
+package jaja;
 import java.util.Scanner;
 
 public class NotasEstudiantes {
