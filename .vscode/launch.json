@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NotasEstudiantes",
+            "request": "launch",
+            "mainClass": "NotasEstudiantes",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "NotasEstudiantes",
+            "request": "launch",
+            "mainClass": "jaja.NotasEstudiantes",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
             "name": "Launch tabla",
             "request": "launch",
             "mainClass": "Examen.tabla",
