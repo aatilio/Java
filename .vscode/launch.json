@@ -6,6 +6,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppPedidos",
+            "request": "launch",
+            "mainClass": "AppPedidos",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "AppPedidos",
+            "request": "launch",
+            "mainClass": "Online.AppPedidos",
+            "projectName": "Java_ca09125"
+        },
+        {
+            "type": "java",
+            "name": "AppPedidos",
+            "request": "launch",
+            "mainClass": "com.mycompany.one.AppPedidos"
+        },
+        {
+            "type": "java",
             "name": "NotasEstudiantes",
             "request": "launch",
             "mainClass": "NotasEstudiantes",
