@@ -12,3 +12,6 @@ Las definiciones de métodos siempre están presentes dentro de una clase y depe
 Los métodos están asociados con los objetos de la clase a la que pertenecen y operan sobre los datos del objeto al que se asocian. Ojo, cada objeto tiene sus propios métodos.
 Un método se llama sobre un objeto: object.method(). No podemos invocarlo sólo por su nombre.
 Un método requiere tener «self» como primer argumento.
+
+
+esta es una nueva rama que estamos provando 
