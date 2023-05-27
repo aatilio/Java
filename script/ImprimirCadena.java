@@ -7,7 +7,7 @@ public class ImprimirCadena {
         StringBuilder texto = new StringBuilder();
         
         for (int variable = 1; variable <= 5000; variable++) {
-            String linea = "24/05/2023";
+            String linea = "27/05/2023";
             System.out.println(linea);
             texto.append(linea).append("\n");
         }

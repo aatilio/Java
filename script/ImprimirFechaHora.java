@@ -28,6 +28,7 @@ public class ImprimirFechaHora {
         Clipboard portapapeles = Toolkit.getDefaultToolkit().getSystemClipboard();  // Obtiene el portapapeles del sistema utilizando la clase Toolkit
         portapapeles.setContents(seleccion, seleccion);  // Establece el contenido en el portapapeles utilizando la clase Clipboard
 
-        System.out.println("El texto se ha copiado al portapapeles.");  // Imprime un mensaje indicando que el texto se ha copiado al portapapeles
+        System.out.println("El texto se ha copiado al portapapeles.");  
+        // Imprime un mensaje indicando que el texto se ha copiado al portapapeles y esto es muy impresionante
     }
 }
